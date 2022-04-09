@@ -3,7 +3,6 @@ import { TaskRepository } from './task.repository';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Task } from './task.entity';
 import { CreateTaskDTO } from './dto/create-task.dto';
-import { TaskStatus } from './task-status';
 
 @Injectable()
 export class TasksService {
